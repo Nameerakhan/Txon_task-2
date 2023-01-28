@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+#display{
+  border:none;
+  background:ivory;
+  boder-radius:230px;
+  width:180px;
+  font-size:20;
+  font-family:sans-serif;
+  font-weight:300;
+  height:60;
+  margin:auto;
+  border:2px solid gray;
+  color:black;
+  curson:auto;
+}
+#display:hover{
+  background-color:#755c5c;
+}
+.container{
+  width:100%;
+  heigth:100vh;
+  background:;
+  dispaly:flex;
+  align-item:center;
+  justify-content:center;
+}
+#box{
+  width:40px;
+  height:30px;
+  border-radius: 10px;
+  border:1px solid black;
+  cursor:pointer;
+}
+.button:hover{
+  background-color:red;
+}
+.calculator{
+  background:#251e1e;
+  padding:5px;
+  width:20%;
+  item-align:center;
+  border-radius:10px;
+  position:absolute;
+  top:100px;
+  left:520px
+  
+}
+body{
+  margin:0;
+  line-height:0.35;
+  background:repeating-linear-gradient(to left,ivory,black);
+}
+
+  
+}
+.button{
+  width :66px;
+  padding : 20px;
+  margin:0 3px;
+  border:2px solid black;
+  border-radius:9px;
+  cursor:pointer;
+}
+.row{
+  margin: 6px 0;
+}
+.row input{
+  width:180px;
+  font-size:20px;
+  margin:2px;
+  padding:10px 0px;
+  border: 2px solid black;
+  border-radius:8px;
+}
